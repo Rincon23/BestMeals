@@ -1,0 +1,127 @@
+/*Corpo do Site*/
+body {
+    background-color: #d6d6d6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Titulo*/
+h1 {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*Tabela*/
+.Tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    max-width: 1050px;
+    overflow-x: auto; /* rolagem horizontal se passar do limite */
+    }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    }
+
+    th, td {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+/*Botao de voltar*/
+.botao-voltar  {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 174, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 40px;
+    }
+
+    .botao-voltar:hover {
+    background-color: #0056b3;
+    
+}
+
+/*botão cadastrar*/
+.botao-cadastrar {
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    top: 20%;
+    left: 10px;
+    }
+
+    .botao-cadastrar:hover {
+        background-color: #7e7e7eb9;
+}
+
+/*Menu de opcoes*/
+.MenuDeOpcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    }
+
+    .MenuDeOpcoes li {
+        margin: 15px 0;
+    }
+
+    .MenuDeOpcoes a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: 1px solid #007bff;
+        border-radius: 5px;
+        transition: 0.3s;
+        background-color: #007bff;
+    }
+
+    .MenuDeOpcoes a:hover {
+        background-color: #0056b3;
+}
+
+.botao-confirmar {
+    background-color: rgb(0, 174, 255);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    .botao-confirmar:hover {
+        background-color: #0056b3;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Style.css') }}">
+    <link rel="stylesheet" href="../static/css/Style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Style-Restaurante-Editar.css') }}">
+    <link rel="stylesheet" href="../static/css/Style-Restaurante-Editar.css">
+    <title>Editar Restaurante</title>
+</head>
+<body>
+
+    <h1>Editar Restaurante</h1>
+        
+        <div class="Tabela">
+            <table border="3">
+                <tr>
+                    <th>Nome</th>
+                    <th>Endereço</th>
+                    <th>Cidade</th>
+                    <th>Estado</th>
+                    <th>CEP</th>
+                </tr>
+                <tr>
+                    <td>{{ NomeRestaurante[0] }}</td>
+                    <td>{{ NomeRestaurante[1] }}</td>
+                    <td>{{ NomeRestaurante[2] }}</td>
+                    <td>{{ NomeRestaurante[3] }}</td>
+                    <td>{{ NomeRestaurante[4] }}</td>
+                </tr>
+            </table>
+        </div>
+
+        <form class="FormularioEditar" action="/Restaurante/Editar" method="POST">
+            <h2>Editando: <span>{{ NomeRestaurante[0] }}</span></h2>
+            <input type="hidden" name="DescricaoAntiga" value="{{ NomeRestaurante[0] }}">
+            <li><input type="text" name="NovoNomeRestaurante" placeholder="Novo Nome" required value="{{ NomeRestaurante[0] }}"></li>
+            <li><input type="text" name="NovoEndereco" placeholder="Novo Endereço" required value="{{ NomeRestaurante[1] }}"></li>
+            <li><input type="text" name="NovoCidade" placeholder="Nova Cidade" required value="{{ NomeRestaurante[2] }}"></li>
+            <li><input type="text" name="NovoEstado" placeholder="Novo Estado" required value="{{ NomeRestaurante[3] }}"></li>
+            <li><input type="text" name="NovoCEP" placeholder="Novo CEP" required value="{{ NomeRestaurante[4] }}"></li>
+            <li><button class="botao-confirmar" type="submit">Confirmar Edição</button></li>
+        </form>
+
+    <button class="botao-voltar" onclick="window.location.href='/Restaurantes'">⬅️</button>
+
+</body>
+</html>
+
+

@@ -1,0 +1,19 @@
+/*Formulario Editar*/
+.FormularioEditar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    width: 300px; /*Mudar conforme necessario ou auto*/
+    height: 350px; /*Mudar conforme necessario ou auto*/
+    margin-top: 10px;
+    }
+    .FormularioEditar li {
+        margin: 10px;
+        justify-self: center;
+}

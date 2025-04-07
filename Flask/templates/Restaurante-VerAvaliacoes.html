@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Style.css') }}">
+    <link rel="stylesheet" href="../static/css/Style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Style-Restaurante-VerAvaliacoes.css') }}">
+    <link rel="stylesheet" href="../static/css/Style-Restaurante-VerAvaliacoes.css">
+    <title>Ver Comentarios</title>
+</head>
+<body>
+    <h1>Restaurantes Avaliados</h1>
+    <div class="Tabela">
+        <table border="3">
+            <tr>
+                <th>Nome do Restaurante</th>
+                <th>Média de Avaliações</th>
+            </tr>
+            {% for item in MediaAvaliacoes %}
+            <tr>
+                <td>{{ item[0] }}</td>
+                <td>{{ item[3]  | round(2) }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    
+    <div class="TabelaComentarios"><h2>Todos as Avaliações:</h2>
+        
+        <table class="Comentarios" border="3">
+            <tr>
+                <th>Comentarios</th>
+                <th>Avaliação</th>
+            </tr>
+            {% for item in Comentarios %}
+            <tr>
+                <td>{{ item[0] | replace('\n', '<br>') | safe }}</td>
+                <td>{{ item[1] }}</td>
+                
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <button class="botao-voltar" onclick="window.location.href='/Restaurantes/Consultar'">⬅️</button>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/Style.css">
+    <title>Restaurantes</title>
+</head>
+<body>
+
+    <div class="botao-voltar-container">
+        <button class="botao-voltar" onclick="window.location.href='/'">⬅️</button>
+        <h1>Restaurantes</h1>
+    </div>
+    
+<div class="Tabela"> 
+        <table border="3">
+            <tr>
+                <th>Nome</th>
+                <th>Endereço</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>CEP</th>
+                <th>Opções</th>
+
+            </tr>
+            {% for item in TodosOsRestaurantes %}
+            <tr>
+                <td>{{ item[0] }}</td>
+                <td>{{ item[1] }}</td>
+                <td>{{ item[2] }}</td>
+                <td>{{ item[3] }}</td>
+                <td>{{ item[4] }}</td>
+                <td>
+                    <a href="/Restaurante/Editar/{{ item[0] }}">✏️</a>
+                    <a href="/Restaurante/Deletar/{{ item[0] }}">🗑️</a>
+                    <a href="/Restaurante/Avaliar/{{ item[0] }}">⭐</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        <button class="botao-cadastrar" onclick="window.location.href='/Restaurantes/Cadastrar'">➕</button>
+</div>
+
+        
+     
+
+</body>
+</html>

@@ -1,2 +1,2 @@
 # BestMeals
-Um sistema de avaliação de restaurante 
+Desafio Prático BestMeals

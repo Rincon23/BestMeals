@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Style.css') }}">
+    <link rel="stylesheet" href="../static/css/Style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Style-Restaurante-Avaliar.css') }}">
+    <link rel="stylesheet" href="../static/css/Style-Restaurante-Avaliar.css">
+    <title>Avaliar</title>
+</head>
+<body>
+
+    <h1>Avaliar restaurante</h1>
+
+<div class="FormularioAvaliar">
+    <form action="/Restaurante/Avaliar" method="POST">
+        <h2>Preencha os dados da avaliação:</h2>
+        <input type="hidden" name="NomeRestaurante2" value="{{ NomeRestaurante[0] }}">
+        <input type="number" name="Avaliação" placeholder="Avaliação 1-5" min="1" max="5" required>
+        <textarea class="Comentarios" type="text" name="Comentarios" placeholder="Comentário" required></textarea>
+        <button class="botao-confirmar" type="submit">Confirmar Avaliação</button>
+        
+    </form>
+</div>
+    <button class="botao-voltar" onclick="window.location.href='/Restaurantes'">⬅️</button>
+
+</body>
+</html>

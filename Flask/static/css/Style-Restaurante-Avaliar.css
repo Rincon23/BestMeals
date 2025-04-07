@@ -1,0 +1,23 @@
+/*Formulario Avaliar*/
+.FormularioAvaliar{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    width: 400px; /*Mudar conforme necessario ou auto*/
+    height: 300px; /*Mudar conforme necessario ou auto*/
+    padding: 20px;
+    }
+    .FormularioAvaliar input{
+        width: 100px;
+    }
+    .FormularioAvaliar .Comentarios {
+        width: 400px;
+        height: 200px;
+        resize: none;
+        
+}
