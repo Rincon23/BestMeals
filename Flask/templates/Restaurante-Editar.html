@@ -39,7 +39,7 @@
             <li><input type="text" name="NovoEndereco" placeholder="Novo Endereço" required value="{{ NomeRestaurante[1] }}"></li>
             <li><input type="text" name="NovoCidade" placeholder="Nova Cidade" required value="{{ NomeRestaurante[2] }}"></li>
             <li><input type="text" name="NovoEstado" placeholder="Novo Estado" required value="{{ NomeRestaurante[3] }}"></li>
-            <li><input type="text" name="NovoCEP" placeholder="Novo CEP" required value="{{ NomeRestaurante[4] }}"></li>
+            <li><input type="text" id="NovoCEP" name="NovoCEP" placeholder="Novo CEP" required value="{{ NomeRestaurante[4] }}" pattern="\d{8}" title="Digite um CEP válido com 8 números" maxlength="8"></li>
             <li><button class="botao-confirmar" type="submit">Confirmar Edição</button></li>
         </form>
 
