@@ -16,7 +16,7 @@ Desafio Prático BestMeals
 #### Se caso não dê certo esses comandos acima
     py -m pip install Flask
 
-    pip install pywebview
+    py -m pip install pywebview
 
 ### 2º Passo (Instalar extenções do VS Code):
 
