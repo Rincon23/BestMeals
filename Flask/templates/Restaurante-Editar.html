@@ -35,10 +35,10 @@
         <form class="FormularioEditar" action="/Restaurante/Editar" method="POST">
             <h2>Editando: <span>{{ NomeRestaurante[0] }}</span></h2>
             <input type="hidden" name="DescricaoAntiga" value="{{ NomeRestaurante[0] }}">
-            <li><input type="text" name="NovoNomeRestaurante" placeholder="Novo Nome" required value="{{ NomeRestaurante[0] }}"></li>
-            <li><input type="text" name="NovoEndereco" placeholder="Novo Endereço" required value="{{ NomeRestaurante[1] }}"></li>
-            <li><input type="text" name="NovoCidade" placeholder="Nova Cidade" required value="{{ NomeRestaurante[2] }}"></li>
-            <li><input type="text" name="NovoEstado" placeholder="Novo Estado" required value="{{ NomeRestaurante[3] }}"></li>
+            <li><input type="text" name="NovoNomeRestaurante" placeholder="Novo Nome" required value="{{ NomeRestaurante[0] }}" maxlength="20"></li>
+            <li><input type="text" name="NovoEndereco" placeholder="Novo Endereço" required value="{{ NomeRestaurante[1] }}" maxlength="20"></li>
+            <li><input type="text" name="NovoCidade" placeholder="Nova Cidade" required value="{{ NomeRestaurante[2] }}" maxlength="20"></li>
+            <li><input type="text" name="NovoEstado" placeholder="Novo Estado" required value="{{ NomeRestaurante[3] }}" maxlength="20"></li>
             <li><input type="text" id="NovoCEP" name="NovoCEP" placeholder="Novo CEP" required value="{{ NomeRestaurante[4] }}" pattern="\d{8}" title="Digite um CEP válido com 8 números" maxlength="8"></li>
             <li><button class="botao-confirmar" type="submit">Confirmar Edição</button></li>
         </form>
