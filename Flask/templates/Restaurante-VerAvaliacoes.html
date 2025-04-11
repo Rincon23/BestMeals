@@ -28,14 +28,14 @@
     
     <div class="TabelaComentarios"><h2>Todos as Avaliações:</h2>
         
-        <table class="Comentarios" border="3">
+        <table  border="3">
             <tr>
                 <th>Comentarios</th>
                 <th>Avaliação</th>
             </tr>
             {% for item in Comentarios %}
             <tr>
-                <td>{{ item[0] | replace('\n', '<br>') | safe }}</td>
+                <td class="Comentarios">{{ item[0] | replace('\n', '<br>') | safe }}</td>
                 <td>{{ item[1] }}</td>
                 
             </tr>

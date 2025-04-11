@@ -14,11 +14,11 @@
 <div class="FormularioCadastrar">
     <form action="/Restaurantes/Cadastrar/Confirmado" method="POST">
         <h2>Preencha os dados:</h2>
-        <li><input type="text" name="NomeRestaurante" placeholder = "Nome" required></li>
-        <li><input type="text" name="Endereco" placeholder="Endereço" required></li>
-        <li><input type="text" name="Cidade" placeholder="Cidade" required></li>
-        <li><input type="text" name="Estado" placeholder="Estado" required></li>
-        <li><input type="text" name="CEP" placeholder="CEP" required></li>
+        <li><input type="text" name="NomeRestaurante" placeholder = "Nome" required maxlength="20"></li>
+        <li><input type="text" name="Endereco" placeholder="Endereço" required maxlength="20"></li>
+        <li><input type="text" name="Cidade" placeholder="Cidade" required maxlength="20"></li>
+        <li><input type="text" name="Estado" placeholder="Estado" required maxlength="20"></li>
+        <li><input type="text" name="CEP" placeholder="CEP" required pattern="\d{8}" title="Digite um CEP válido com 8 números" maxlength="8"></li>
         <li><button class="botao-confirmar" type="submit">Adicionar</button></li>
     </form>
 </div>

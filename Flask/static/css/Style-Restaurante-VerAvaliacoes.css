@@ -10,7 +10,18 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     padding: 30px;
     overflow-x: auto; /* rolagem horizontal se passar do limite */
+    max-width: 90%; /* Limita a largura máxima da tabela */
     }
-    .Comentarios{
-        text-align: left;
+    .Comentarios {
+    max-width: 90%; /* Limita a largura máxima da tabela */
+    text-align: left;
+    word-wrap: break-word; /* Quebra o texto longo */
+    word-break: break-word; /* Quebra palavras longas */
+    white-space: pre-wrap; /* Mantém quebras de linha */
+    table-layout: fixed; /* Força o layout fixo da tabela */
 }
+
+
+
+
+

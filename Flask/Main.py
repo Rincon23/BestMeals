@@ -83,5 +83,5 @@ def OOVerAvaliacoes(NomeRestaurante):
 
 
 if __name__ == "__main__":
-    #webview.start()
-    app.run(debug=True) # Executa o Flask em modo debug para desenvolvimento
+    webview.start()
+    # app.run(debug=True) # Executa o Flask em modo debug para desenvolvimento
