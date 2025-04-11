@@ -6,16 +6,18 @@
 ---
 
 ## 📚 Sumário
-### [📌 Sobre o projeto](#📌-sobre-o-projeto)
-### [🧰 Tecnologias Utilizadas](#🧰-tecnologias-utilizadas)
-### [💻 Como rodar o programa (sem usar código)](#💻-como-rodar-o-programa-sem-usar-código)
-### [👨‍💻 Como rodar o código (modo desenvolvedor)](#👨‍💻-como-rodar-o-código-modo-desenvolvedor)
-### [📁 Estrutura de Pastas e Arquivos](#📁-estrutura-de-pastas-e-arquivos)
-### [📷 Imagens do sistema](#📷-imagens-do-sistema)
-### [📞 Contato e Créditos](#📞-créditos-e-contato)
+### [📌 Sobre o projeto](#sobre)
+### [🧰 Tecnologias Utilizadas](#TecnologiasUtilizadas)
+### [💻 Como rodar o programa (sem usar código)](#ComoRodarOPrograma)
+### [👨‍💻 Como rodar o código (modo desenvolvedor)](#ComoRodarOProgramaSemCodigo)
+### [📁 Estrutura de Pastas e Arquivos](#EstruturaDePastas)
+### [📷 Imagens do sistema](#ImagensDoSistema)
+### [📞 Contato e Créditos](#CreditosEContato)
 
 
 ---
+
+<a id="sobre"></a>
 
 ## 📌 Sobre o projeto
 ### BestMeals é um sistema simples e funcional de cadastro e avaliação de itens. Foi idealizado inicialmente para restaurantes, mas sua estrutura permite fácil adaptação para avaliar qualquer coisa – como filmes, livros, produtos, entre outros.
@@ -25,6 +27,8 @@
 ### 💡 Objetivo principal: desenvolver um projeto prático que me permitisse demonstrar habilidades em programação e, ao mesmo tempo, aprender novas bibliotecas e funcionalidades, como o uso do Flask, SQLite e PyWebview.
 
 ### 🎯 O foco foi criar um sistema funcional, com boa organização de pastas e código limpo, que pudesse ser executado por qualquer pessoa, mesmo sem conhecimento técnico.
+
+<a id="TecnologiasUtilizadas"></a>
 
 ## 🧰 Tecnologias Utilizadas
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> 
@@ -48,6 +52,8 @@
 
 <p>Estruturaram e estilizaram as interfaces gráficas das páginas do sistema. Foram utilizados vários arquivos CSS para manter o estilo organizado e separado por funcionalidade.</p>
 
+<a id="ComoRodarOPrograma"></a>
+
 ## 💻 Como rodar o programa (sem usar código)
 
 #### ✅ 1. Baixe a pasta ["Arquivo Executável"](https://github.com/Rincon23/BestMeals/tree/main/Arquivo%20Execut%C3%A1vel)
@@ -56,6 +62,8 @@
 
     ├── Arquivo Executável <----------- BAIXE ESTA PASTA
         └── BestMeals.exe  <----------- EXECUTE ESTE ARQUIVO 
+
+<a id="ComoRodarOProgramaSemCodigo"></a>
 
 ## 👨‍💻 Como rodar o código (modo desenvolvedor)
 
@@ -102,6 +110,8 @@
     ├── Imagens
     ├── .gitignore
     └── README.md
+
+<a id="EstruturaDePastas"></a>
 
 ## 📁 Estrutura de Pastas e Arquivos
 
@@ -153,6 +163,8 @@
     └── README.md
         → Arquivo de documentação do projeto (este aqui).
 
+<a id="ImagensDoSistema"></a>
+
 ## 📷 Imagens do sistema
 
 <table>
@@ -181,6 +193,8 @@
     <td><img src="Imagens/AvaliaçõesDoRestaurante.png" width="400"/></td>
   </tr>
 </table>
+
+<a id="CreditosEContato"></a>
 
 ## 📞 Créditos e Contato
 
