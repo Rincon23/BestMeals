@@ -6,19 +6,21 @@
 ---
 
 ## 📚 Sumário
+### [📌 Sobre o projeto](#📌-sobre-o-projeto)
+### [🧰 Tecnologias Utilizadas](#🧰-tecnologias-utilizadas)
+### [💻 Como rodar o programa (sem usar código)](#💻-como-rodar-o-programa-sem-usar-código)
+### [👨‍💻 Como rodar o código (modo desenvolvedor)](#👨‍💻-como-rodar-o-código-modo-desenvolvedor)
+### [📁 Estrutura de Pastas e Arquivos](#📁-estrutura-de-pastas-e-arquivos)
+### [📷 Imagens do sistema](#📷-imagens-do-sistema)
+### [📞 Contato e Créditos](#📞-créditos-e-contato)
 
-### [📌 Sobre o Projeto](#-sobre-o-projeto)
-### [🧰 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-### [💻 Como rodar o programa (sem usar código)](#-como-rodar-o-programa-sem-usar-código)
-### [👨‍💻 Como rodar o código (modo desenvolvedor)](#-como-rodar-o-código-modo-desenvolvedor)
-### [📁 Estrutura de Pastas e Arquivos](#-estrutura-de-pastas-e-arquivos)
-### [📷 Imagens do sistema](#-imagens-do-sistema)
-### [📞 Contato e Créditos](#-contato-e-créditos)
 
 ---
 
 ## 📌 Sobre o projeto
 ### BestMeals é um sistema simples e funcional de cadastro e avaliação de itens. Foi idealizado inicialmente para restaurantes, mas sua estrutura permite fácil adaptação para avaliar qualquer coisa – como filmes, livros, produtos, entre outros.
+
+### ⏱️ Este projeto foi desenvolvido em apenas uma semana, como parte de um processo seletivo para uma vaga de emprego na área de desenvolvimento.
 
 ### 💡 Objetivo principal: desenvolver um projeto prático que me permitisse demonstrar habilidades em programação e, ao mesmo tempo, aprender novas bibliotecas e funcionalidades, como o uso do Flask, SQLite e PyWebview.
 
@@ -48,16 +50,12 @@
 
 ## 💻 Como rodar o programa (sem usar código)
 
-#### ✅ 1. Baixe a pasta "Arquivo Executável"
+#### ✅ 1. Baixe a pasta ["Arquivo Executável"](https://github.com/Rincon23/BestMeals/tree/main/Arquivo%20Execut%C3%A1vel)
 
 #### ✅ 2. Execute o Arquivo "BestMeals"
 
     ├── Arquivo Executável <----------- BAIXE ESTA PASTA
         └── BestMeals.exe  <----------- EXECUTE ESTE ARQUIVO 
-    ├── Flask
-    ├── Imagens
-    ├── .gitignore
-    └── README.md
 
 ## 👨‍💻 Como rodar o código (modo desenvolvedor)
 
@@ -184,21 +182,39 @@
   </tr>
 </table>
 
-## 📞 Contato e Créditos
+## 📞 Créditos e Contato
 
-<h3> Desenvolvido por <a href= https://github.com/Rincon23>Enzo Rincon</a></h3>  
+<h3> Desenvolvido por <a href= https://github.com/Rincon23>Enzo Rincon</a></h3> 
 
-<p>Se você gostou do projeto, tem sugestões de melhorias ou quer trocar uma ideia sobre desenvolvimento, sinta-se à vontade para entrar em contato pelos links abaixo 👇</p>
+<p>📍 Localização: São Paulo 
+<p>💼 Áreas de interesse: Desenvolvimento Web, Backend.
+<p>📢 Aberto a oportunidades profissionais na área de desenvolvimento
 
-<p>
-<a href = https://www.linkedin.com/in/enzorincon>
-<img src = https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white>
-</a>
-<a href = https://www.instagram.com/enzo.rincon>
-<img src = https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white>
-</a>
-<a href = mailto:enzorincon2003@gmail.com>
-<img src = https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white>
-</a>
-</p>
+---
+
+### 📬 Como entrar em contato?
+
+<p>Curtiu o projeto? Quer dar um feedback, trocar ideia sobre tecnologia ou até falar de vagas?</p>
+<p>Tô sempre aberto a conversar! É só me chamar nos links aí embaixo 👇</p>
+
+### 📬 Como entrar em contato?
+
+<table> 
+    <tr>
+        <td><strong>📧 E-mail:</strong></td> 
+        <td><a href="mailto:enzorincon2003@gmail.com">enzorincon2003@gmail.com</a></td> 
+    </tr>
+    <tr> 
+        <td><strong>💼 LinkedIn:</strong></td> 
+        <td><a href="https://www.linkedin.com/in/enzorincon">linkedin.com/in/enzorincon</a></td> 
+    </tr> 
+    <tr> 
+        <td><strong>📷 Instagram:</strong></td> 
+        <td><a href="https://www.instagram.com/enzo.rincon">@enzo.rincon</a></td> 
+    </tr> 
+</table>
+
+---
+
+⭐ Obrigado por visitar este projeto! ⭐
 
