@@ -211,8 +211,6 @@
 <p>Curtiu o projeto? Quer dar um feedback, trocar ideia sobre tecnologia ou até falar de vagas?</p>
 <p>Tô sempre aberto a conversar! É só me chamar nos links aí embaixo 👇</p>
 
-### 📬 Como entrar em contato?
-
 <table> 
     <tr>
         <td><strong>📧 E-mail:</strong></td> 
