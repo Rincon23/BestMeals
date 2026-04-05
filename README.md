@@ -1,5 +1,5 @@
-<h1> BestMeals </h1>
-<p>
+<h1 align="center"> BestMeals </h1>
+<p align="center">
   <img src="Imagens/ImagemProjeto.png" width="500">
 </p>
 
